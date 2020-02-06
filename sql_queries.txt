@@ -1,0 +1,7 @@
+#First query
+
+INSERT INTO `settings`(`key`, `value`) VALUES ('mail_host', 'smtp.gmail.com') , ('mail_port', '465'), ('mail_username', 'Your-email-name@gmail.com'), ('mail_password', 'password of gmail'), ('mail_encryption', 'ssl');
+
+#Second query
+
+update `settings` SET `value`='smtp' WHERE `key`='mail_driver';
